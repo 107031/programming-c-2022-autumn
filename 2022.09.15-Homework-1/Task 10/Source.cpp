@@ -1,3 +1,4 @@
+//Понятия не имею как это сделать
 #include <iostream>
 
 int main(int argc, char* argv[]) {
