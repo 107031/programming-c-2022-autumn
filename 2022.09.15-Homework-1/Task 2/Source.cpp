@@ -1,8 +1,9 @@
 #include <iostream>
 
-int main() {
-	int n = 0, k = 0;
+int main(int argc, char* argv[]) {
+	int n = 0;
+	int k = 0;
 	std::cin >> n >> k;
 	std::cout << n / k;
-	return 0;
+	return EXIT_SUCCESS;
 }
