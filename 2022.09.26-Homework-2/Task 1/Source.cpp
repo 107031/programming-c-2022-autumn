@@ -1,35 +1,35 @@
-#include <iostream> 
+ï»¿#include <iostream> 
 
 int main(int argc, char* argv[]) {
 	int n = 0;
 	std::cin >> n;
 	switch (n / 100 % 10) {
 	case (9):
-		std::cout << "äåâÿòüñîò ";
+		std::cout << "Ð´ÐµÐ²ÑÑ‚ÑŒÑÐ¾Ñ‚ ";
 		break;
 	case (8):
-		std::cout << "âîñåìüñîò ";
+		std::cout << "Ð²Ð¾ÑÐµÐ¼ÑŒÑÐ¾Ñ‚ ";
 		break;
 	case (7):
-		std::cout << "ñåìüñîò ";
+		std::cout << "ÑÐµÐ¼ÑŒÑÐ¾Ñ‚ ";
 		break;
 	case (6):
-		std::cout << "øåñòüñîò ";
+		std::cout << "ÑˆÐµÑÑ‚ÑŒÑÐ¾Ñ‚ ";
 		break;
 	case (5):
-		std::cout << "ïÿòüñîò ";
+		std::cout << "Ð¿ÑÑ‚ÑŒÑÐ¾Ñ‚ ";
 		break;
 	case (4):
-		std::cout << "÷åòûðåñòà ";
+		std::cout << "Ñ‡ÐµÑ‚Ñ‹Ñ€ÐµÑÑ‚Ð° ";
 		break;
 	case (3):
-		std::cout << "òðèñòà ";
+		std::cout << "Ñ‚Ñ€Ð¸ÑÑ‚Ð° ";
 		break;
 	case (2):
-		std::cout << "äâåñòè ";
+		std::cout << "Ð´Ð²ÐµÑÑ‚Ð¸ ";
 		break;
 	case (1):
-		std::cout << "ñòî ";
+		std::cout << "ÑÑ‚Ð¾ ";
 		break;
 	case (0):
 		std::cout << "";
@@ -37,60 +37,60 @@ int main(int argc, char* argv[]) {
 	}
 	switch (n / 10 % 10) {
 	case (9):
-		std::cout << "äåâÿíîñòî ";
+		std::cout << "Ð´ÐµÐ²ÑÐ½Ð¾ÑÑ‚Ð¾ ";
 		break;
 	case (8):
-		std::cout << "âîñåìüäåñÿò ";
+		std::cout << "Ð²Ð¾ÑÐµÐ¼ÑŒÐ´ÐµÑÑÑ‚ ";
 		break;
 	case (7):
-		std::cout << "ñåìüäåñÿò ";
+		std::cout << "ÑÐµÐ¼ÑŒÐ´ÐµÑÑÑ‚ ";
 		break;
 	case (6):
-		std::cout << "øåñòüäåñÿò ";
+		std::cout << "ÑˆÐµÑÑ‚ÑŒÐ´ÐµÑÑÑ‚ ";
 		break;
 	case (5):
-		std::cout << "ïÿòüäåñÿò ";
+		std::cout << "Ð¿ÑÑ‚ÑŒÐ´ÐµÑÑÑ‚ ";
 		break;
 	case (4):
-		std::cout << "ñîðîê ";
+		std::cout << "ÑÐ¾Ñ€Ð¾Ðº ";
 		break;
 	case (3):
-		std::cout << "òðèäöàòü ";
+		std::cout << "Ñ‚Ñ€Ð¸Ð´Ñ†Ð°Ñ‚ÑŒ ";
 		break;
 	case (2):
-		std::cout << "äâàäöàòü ";
+		std::cout << "Ð´Ð²Ð°Ð´Ñ†Ð°Ñ‚ÑŒ ";
 		break;
 	case (1):
 		switch (n % 10) {
 		case (9):
-			std::cout << "äåâÿòíàäöàòü ";
+			std::cout << "Ð´ÐµÐ²ÑÑ‚Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ ";
 			break;
 		case (8):
-			std::cout << "âîñåìíàäöàòü ";
+			std::cout << "Ð²Ð¾ÑÐµÐ¼Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ ";
 			break;
 		case (7):
-			std::cout << "ñåìíàäöàòü ";
+			std::cout << "ÑÐµÐ¼Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ ";
 			break;
 		case (6):
-			std::cout << "øåñòíàäöàòü ";
+			std::cout << "ÑˆÐµÑÑ‚Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ ";
 			break;
 		case (5):
-			std::cout << "ïÿòíàäöàòü ";
+			std::cout << "Ð¿ÑÑ‚Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ ";
 			break;
 		case (4):
-			std::cout << "÷åòûðíàäöàòü ";
+			std::cout << "Ñ‡ÐµÑ‚Ñ‹Ñ€Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ ";
 			break;
 		case (3):
-			std::cout << "òðèíàäöàòü ";
+			std::cout << "Ñ‚Ñ€Ð¸Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ ";
 			break;
 		case (2):
-			std::cout << "äâåíàäöàòü ";
+			std::cout << "Ð´Ð²ÐµÐ½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ ";
 			break;
 		case (1):
-			std::cout << "îäèííàäöàòü ";
+			std::cout << "Ð¾Ð´Ð¸Ð½Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ ";
 			break;
 		case (0):
-			std::cout << "äåñÿòü ";
+			std::cout << "Ð´ÐµÑÑÑ‚ÑŒ ";
 			break;
 		}
 		break;
@@ -98,31 +98,31 @@ int main(int argc, char* argv[]) {
 	if (n / 10 % 10 != 1) {
 		switch (n % 10) {
 		case (9):
-			std::cout << "äåâÿòü ";
+			std::cout << "Ð´ÐµÐ²ÑÑ‚ÑŒ ";
 			break;
 		case (8):
-			std::cout << "âîñåìü ";
+			std::cout << "Ð²Ð¾ÑÐµÐ¼ÑŒ ";
 			break;
 		case (7):
-			std::cout << "ñåìü ";
+			std::cout << "ÑÐµÐ¼ÑŒ ";
 			break;
 		case (6):
-			std::cout << "øåñòü ";
+			std::cout << "ÑˆÐµÑÑ‚ÑŒ ";
 			break;
 		case (5):
-			std::cout << "ïÿòü ";
+			std::cout << "Ð¿ÑÑ‚ÑŒ ";
 			break;
 		case (4):
-			std::cout << "÷åòûðå ";
+			std::cout << "Ñ‡ÐµÑ‚Ñ‹Ñ€Ðµ ";
 			break;
 		case (3):
-			std::cout << "òðè ";
+			std::cout << "Ñ‚Ñ€Ð¸ ";
 			break;
 		case (2):
-			std::cout << "äâà ";
+			std::cout << "Ð´Ð²Ð° ";
 			break;
 		case (1):
-			std::cout << "îäèí ";
+			std::cout << "Ð¾Ð´Ð¸Ð½ ";
 			break;
 		case (0):
 			std::cout << "";
@@ -130,13 +130,13 @@ int main(int argc, char* argv[]) {
 		}
 	}
 	if (n / 10 % 10 != 1 && n % 10 < 5 && n % 10 > 1) {
-		std::cout << "áàíàíà";
+		std::cout << "Ð±Ð°Ð½Ð°Ð½Ð°";
 	}
 	else if (n / 10 % 10 != 1 && n % 10 == 1) {
-		std::cout << "áàíàí";
+		std::cout << "Ð±Ð°Ð½Ð°Ð½";
 	}
 	else {
-		std::cout << "áàíàíîâ";
+		std::cout << "Ð±Ð°Ð½Ð°Ð½Ð¾Ð²";
 	}
 	return EXIT_SUCCESS;
 }
