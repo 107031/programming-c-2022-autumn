@@ -1,9 +1,9 @@
 #include <iostream>
 
 int main(int argc, char* argv[]) {
-	int n = 0;
-	std::cin >> n;
-	if ((n % 4 == 0 && n % 100 != 0) || (n % 400 == 0)) {
+	int k = 0;
+	std::cin >> k;
+	if ((k == 1) || (k % 4 == 0 && k > 1)) {
 		std::cout << "YES";
 	}
 	else {
