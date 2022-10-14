@@ -8,7 +8,7 @@ int main(int argc, char* argv[]) {
 	std::cin >> n;
 	do {
 		do {
-			std::cout << (((i + j) < n)? k++ : k--);
+			std::cout << (((i + j) < n)? k++ : k--) << " ";
 			j++;
 		} while (j < n);
 		std::cout << "\n";
