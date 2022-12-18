@@ -1,16 +1,16 @@
 #include <iostream>
 
 int min(int a, int b, int c, int d) {
-	if (a <= b && a <= c && a <= d) {
+	if (d < c) {
+		return min(a, b, d, c);
+	}
+	else if (c < b) {
+		return min(a, c, b, d);
+	}
+	else if (a < b) {
 		return a;
 	}
-	else if (b <= a && b <= c && b <= d) {
-		min(b, c, d, a);
-	}
-	else if (c <= a && c <= b && c <= d) {
-		min(c, a, b, d);
-	}
-	else { return d; }
+	return b;
 }
 
 int main(int argc, char* argv[]) {
