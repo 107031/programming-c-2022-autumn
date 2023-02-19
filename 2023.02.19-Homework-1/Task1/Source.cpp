@@ -31,7 +31,7 @@ void printAnimal(Animal temp) {
 	std::cout << "animal name = " << temp.name << ", animal type = " << temp.type << ", animal age = " << temp.age << "\n";
 }
 
-void elderAnimal(Animal temp) {
+void elderAnimal(Animal& temp) {
 	temp.age++;
 }
 
